@@ -3,7 +3,7 @@ Polygenic Risk Scoring
 
 This repo contains a small, end-to-end script to compute a polygenic risk score (PRS) from GWAS summary statistics and a single individual's genotypes.
 
-The data used is Genome-Wide Association Data from BioBank and individual genomic data from the Personal Genome Project. UCSC's LiftOver web tool was used to convert between genomic builds.
+The data used is Genome-Wide Association Data from the UK BioBank and individual genomic data from the Personal Genome Project. UCSC's LiftOver web tool was used to convert between genomic builds.
 
 Files
 ------------------
@@ -31,7 +31,7 @@ It will report how many SNPs pass the p-value threshold (default `1e-2`) and the
 
 Results
 -----
-`python3 main.py`
+`> python3 main.py`
 ```
 Total # Signifiicant SNPs: 1021228
 Overlapping SNPs between genome and GWAS: 321
