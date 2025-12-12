@@ -1,7 +1,7 @@
 Polygenic Risk Scoring
 ======================
 
-This repo contains a small, end-to-end script to compute a polygenic risk score (PRS) from GWAS summary statistics and a single individual's genotypes.
+This repo contains a small, end-to-end script to compute a polygenic risk score (PRS) from GWAS summary statistics and a single individual's genotypes. This particular risk assessment is for Parkinson's Disease and focuses on imputed genomic associations of PD.
 
 The data used is Genome-Wide Association Data from the UK BioBank and individual genomic data from the Personal Genome Project. UCSC's LiftOver web tool was used to convert between genomic builds.
 
