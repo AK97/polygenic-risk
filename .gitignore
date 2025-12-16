@@ -2,3 +2,7 @@ data
 venv
 __pycache__/
 .DS_Store
+
+target
+Cargo.toml
+Cargo.lock
